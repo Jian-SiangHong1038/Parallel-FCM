@@ -9,6 +9,9 @@ Fuzzy Cognitive Mapping (FCM) represents the ‘mental model’ of individuals a
 
 Download from website [Parallel Fuzzy Cognitive Maps](https://osf.io/qyujt/ "Title")  
 
+## Platform
+TAMU HPRC Terra
+
 ## Version
 Python 3.7.2
 
