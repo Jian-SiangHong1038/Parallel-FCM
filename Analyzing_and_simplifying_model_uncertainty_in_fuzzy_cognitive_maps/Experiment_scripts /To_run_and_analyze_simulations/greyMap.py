@@ -7,7 +7,7 @@ Created on Mon Jan 30 15:36:28 2017
 from math import exp
 import pathos
 import sys
-sys.path.insert(1, '/scratch/user/matthong1038/torage/Fuzzy_Cognitive_Map_library/source code')
+sys.path.insert(1, '/scratch/user/matthong1038/Parallel-FCM/Fuzzy_Cognitive_Map_library/source code')
 import FCM
 import sys
 import pathos.multiprocessing as mp
@@ -239,7 +239,7 @@ Main is here
 4: output file
 '''
 # print('End is: ', sys.argv[3])
-inFile = "/scratch/user/matthong1038/torage/Analyzing_and_simplifying_model_uncertainty_in_fuzzy_cognitive_maps/Experimental_set-up/caseStudy1-AllStabilizes.txt"
+inFile = "/scratch/user/matthong1038/Parallel-FCM/Analyzing_and_simplifying_model_uncertainty_in_fuzzy_cognitive_maps/Experimental_set-up/caseStudy1-AllStabilizes.txt"
 #sys.argv[1]#[0] is program name
 start = 1 #int(sys.argv[2])#start of range
 end = start + 3#int(sys.argv[3]) #range 
