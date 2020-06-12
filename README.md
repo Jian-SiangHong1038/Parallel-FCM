@@ -13,9 +13,8 @@ Download from website [Parallel Fuzzy Cognitive Maps](https://osf.io/qyujt/ "Tit
 TAMU HPRC Terra
 
 ## Version
-Python 3.7.2
-
-networkx/2.4-intel-2019a-Python-3.7.2
+1. Python 3.7.2
+2. networkx/2.3-intel-2019a-Python-3.7.2
 ## Usage
 
 ```python
