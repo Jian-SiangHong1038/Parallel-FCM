@@ -24,7 +24,7 @@ $ source env/bin/activate            # Activate virtual environment
 
 ```
 $ module load Python/3.5.2-intel-2017A         # Load Python module
-$ module load networkx						   # Load networkx
+$ module load networkx			       # Load networkx
 ```
 
 ### Main is here
