@@ -1,0 +1,46 @@
+Stable:
+Obesity
+
+Nodes:
+Female_Gender: 0
+Psychosocial_Barrier: 0.5 
+Socio_economic_status: 0.3 
+Age: 0.5
+Fitness: 0.2
+Exercise: 0.2
+Physical_health: 0.5
+Depression: 0.0
+Obesity: 0.0
+Antidepressants: 0.0
+Food_Intake: 0.25
+Stress: 0.8
+Fatness_percieved_as_a_negative_trait: 0.7 
+Weight_discrimination: 0.0
+Belief_in_personal_responsiblity: 0.7
+
+Edges:
+Female_Gender Psychosocial_Barrier 0.0 0.5
+Socio_economic_status Psychosocial_Barrier 0.0 -0.75
+Age Psychosocial_Barrier 0.25 0.75
+Age Fitness -0.25 -1.0
+Fitness Exercise 0.75 1.0
+Exercise Fitness 0.75 1.0
+Exercise Physical_health 0.75 1.0
+Exercise Depression -0.5 -1.0
+Exercise Obesity -0.5 -0.75
+Obesity Fitness -0.25 -1.0
+Obesity Physical_health 0.75 1.0
+Female_Gender Depression 0.0 0.5
+Depression Antidepressants 0.25 1.0
+Antidepressants Obesity 0.0 0.75
+Antidepressants Food_Intake 0.0 0.75
+Food_Intake Obesity 0.0 0.75
+Stress Physical_health 0.0 -1.0
+Stress Food_Intake 0.0 0.75
+Female_Gender Fatness_percieved_as_a_negative_trait 0.75 1.0
+Socio_economic_status Fatness_percieved_as_a_negative_trait 0.25 1.0
+Fatness_percieved_as_a_negative_trait Weight_discrimination 0.25 1.0
+Belief_in_personal_responsiblity Weight_discrimination 0.25 1.0
+Weight_discrimination Depression 0.5 1.0
+Obesity Weight_discrimination 0.5 1.0
+Stress Depression 0.25 0.75
